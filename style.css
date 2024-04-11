@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?8otazr');
-  src:  url('fonts/icomoon.eot?8otazr#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?8otazr') format('truetype'),
-    url('fonts/icomoon.woff?8otazr') format('woff'),
-    url('fonts/icomoon.svg?8otazr#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ypc3sg');
+  src:  url('fonts/icomoon.eot?ypc3sg#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ypc3sg') format('truetype'),
+    url('fonts/icomoon.woff?ypc3sg') format('woff'),
+    url('fonts/icomoon.svg?ypc3sg#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-building:before {
+  content: "\e907";
+}
+.icon-concrete:before {
+  content: "\e908";
+}
+.icon-hand-cleaning:before {
+  content: "\e909";
+}
+.icon-person-construction:before {
+  content: "\e90a";
+}
+.icon-slab-concrete:before {
+  content: "\e90b";
+}
 .icon-door:before {
   content: "\e906";
 }
